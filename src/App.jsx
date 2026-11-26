@@ -1,3 +1,4 @@
+import EmployeeDirectoryPage from "./pages/EmployeeDirectoryPage/EmployeeDirectoryPage.jsx";
 import "./App.css";
 
 export default function App() {
@@ -7,7 +8,7 @@ export default function App() {
                 Skip to main content
             </a>
             <main className="app__main" id="main-content" tabIndex={-1}>
-                <h1>Employee Directory</h1>
+                <EmployeeDirectoryPage />
             </main>
             <footer className="app__footer">
                 <p>
