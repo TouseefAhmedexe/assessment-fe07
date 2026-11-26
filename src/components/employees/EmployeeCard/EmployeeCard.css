@@ -1,0 +1,101 @@
+.employee-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: grid;
+    gap: var(--space-3);
+    padding: var(--space-4);
+}
+
+.employee-card--compact {
+    gap: var(--space-2);
+    padding: var(--space-3);
+}
+
+.employee-card__top {
+    align-items: center;
+    display: flex;
+    gap: var(--space-3);
+}
+
+.employee-card__identity {
+    flex: 1;
+    min-width: 0;
+}
+
+.employee-card__name {
+    font-size: 1.15rem;
+}
+
+.employee-card__role {
+    font-weight: 700;
+    margin: 0;
+}
+
+.employee-card__department {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.status-badge {
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.2em 0.65em;
+    white-space: nowrap;
+}
+
+.status-badge--active {
+    background-color: var(--color-surface-alt);
+    color: var(--color-success);
+}
+
+.status-badge--on-leave {
+    background-color: var(--color-surface-alt);
+    color: var(--color-warning);
+}
+
+.employee-card__details {
+    display: grid;
+    gap: var(--space-1) var(--space-3);
+    grid-template-columns: auto 1fr;
+    margin: 0;
+}
+
+.employee-card__details dt {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.employee-card__details dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+.employee-card__compact-salary {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.employee-card__skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+}
+
+.skill-tag {
+    background-color: var(--color-surface-alt);
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.15em 0.55em;
+}
+
+.employee-card__actions {
+    display: flex;
+    justify-content: flex-start;
+}
