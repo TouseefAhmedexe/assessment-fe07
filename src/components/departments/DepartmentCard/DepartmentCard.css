@@ -1,0 +1,58 @@
+.department-card {
+    background-color: var(--color-surface);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: grid;
+    gap: var(--space-2);
+    padding: var(--space-4);
+    transition: transform 0.2s ease-in-out;
+}
+
+.department-card:hover {
+    transform: translateY(-2px);
+}
+
+.department-card--active {
+    background-color: var(--color-surface-alt);
+    border-color: var(--color-primary);
+}
+
+.department-card__header {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    justify-content: space-between;
+}
+
+.department-card__title {
+    font-size: 1.1rem;
+}
+
+.department-card__link {
+    text-decoration: none;
+}
+
+.department-card__link:hover {
+    text-decoration: underline;
+}
+
+.department-card__count {
+    background-color: var(--color-surface-alt);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0.15em 0.65em;
+}
+
+.department-card--active .department-card__count {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+
+.department-card__description {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    margin: 0;
+}
