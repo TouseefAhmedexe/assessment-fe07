@@ -1,0 +1,30 @@
+.profile-image {
+    align-items: center;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-border);
+    border-radius: 50%;
+    color: var(--color-on-primary);
+    display: inline-flex;
+    flex-shrink: 0;
+    font-weight: 700;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.profile-image--small {
+    block-size: 2.5rem;
+    font-size: 0.95rem;
+    inline-size: 2.5rem;
+}
+
+.profile-image--medium {
+    block-size: 3.5rem;
+    font-size: 1.25rem;
+    inline-size: 3.5rem;
+}
+
+.profile-image--large {
+    block-size: 4.5rem;
+    font-size: 1.5rem;
+    inline-size: 4.5rem;
+}
