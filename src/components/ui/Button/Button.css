@@ -1,0 +1,42 @@
+.button {
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    transition:
+        transform 0.2s ease-in-out,
+        background-color 0.2s ease-in-out;
+}
+
+.button--primary {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+
+.button--secondary {
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.button--small {
+    font-size: 0.875rem;
+    padding: 0.3em 0.8em;
+}
+
+.button--medium {
+    padding: 0.55em 1.2em;
+}
+
+.button:hover:enabled {
+    transform: translateY(-2px);
+}
+
+.button:active:enabled {
+    transform: scale(0.97);
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
