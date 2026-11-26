@@ -40,4 +40,4 @@ Employee directory application built with reusable React components, props, and 
 
 ## Data Note
 
-All employees, departments, and salaries are sample data. Profile photo `/images/avatars/touseef-ahmed.jpg` is served from `public/`, while employees without a photo display their initials via ProfileImage.
+All employees, departments, and salaries are sample data. Profile photo `/images/avatars/touseef-ahmed.jpg` is served from `public/`, while employees without a photo display their initials via ProfileImage
