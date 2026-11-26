@@ -1,0 +1,41 @@
+.skip-link {
+    background-color: var(--color-primary);
+    border-end-end-radius: var(--radius);
+    color: var(--color-on-primary);
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    padding: var(--space-2) var(--space-4);
+    position: fixed;
+    transform: translateY(-120%);
+    z-index: 100;
+}
+
+.skip-link:link,
+.skip-link:visited {
+    color: var(--color-on-primary);
+}
+
+.skip-link:focus-visible {
+    transform: none;
+}
+
+.app__main {
+    margin: 0 auto;
+    max-width: 78rem;
+    padding: var(--space-4);
+}
+
+.app__main:focus {
+    outline: none;
+}
+
+.app__footer {
+    border-block-start: 1px solid var(--color-border);
+    color: var(--color-muted);
+    padding: var(--space-4);
+    text-align: center;
+}
+
+.app__footer p {
+    margin: 0;
+}
